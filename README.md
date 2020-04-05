@@ -1,6 +1,6 @@
 # Power Plant
 
-
+![image](https://user-images.githubusercontent.com/9637712/78512449-68aa3000-7759-11ea-944e-b4d71eb6b698.png)
 
 ```Make a plant.```
 
