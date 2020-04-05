@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(23, 180, 107);
+}
+
+.page-header2 {
+  background-color: brown;
+  text-align: center;
+  box-shadow: 5px 5px 5px;
+  border-radius: 5px;
+}
+
+.btn-success2 {
+  background-color: blue;
+  color: aqua;
+}
+
+.btn-success3 {
+  background-color: rgb(129, 129, 221);
+  color: aqua;
+}
+
+hr {
+  box-shadow: brown 5px 5px 5px;
+}
+
+
+img {
+  border-radius: 50%;
+  border: brown 5px solid;
+  border-width: 2px;
+  border-color: cyan;
+
+}
+
+.btn-success1 {
+  background-color: tan;
+  color: brown;
+}
+
+.container2 {
+background-color: rgb(118, 223, 174);
+box-shadow: 5px 5px 10px;
+width: 250px;
+padding: 5px;
+margin: 5px;
+border: 1px solid cyan;
+border-width: 2px;
+border-color: cyan;
+border-radius: 5px 50px;
+}
