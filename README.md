@@ -17,4 +17,4 @@ https:https://github.com/Jbird206/Power-Plant
 
 ###  all rights reserved. Do not copy. Property of Jason McGrady
 
-![image](https://user-images.githubusercontent.com/9637712/78512449-68aa3000-7759-11ea-944e-b4d71eb6b698.png)
+
