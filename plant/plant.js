@@ -24,7 +24,7 @@ const storeState = () => {
   
   // We create two functions using our function factory. We could easily create many more.
   
-
+  //const  = changeStatus("plant");
   const feed = changeState("soil");
   const blueFood = changeState("soil")(5);
 
@@ -33,7 +33,9 @@ const storeState = () => {
   const tapWater = changeState("liquid")(4);
   const richWater = changeState("liquid")(10);
   //
-  // const plant = changeStatus("plant");
+   const beam = changeState("light");
+   const sunLight = changeState("light")(7);
+   
 //   
   
   $(document).ready(function() {
@@ -46,6 +48,13 @@ const storeState = () => {
 
     })
 
+    $('#beam').click(function() {
+      const newState = stateChanger(sunLight);
+      $('#light-value').text(newState.light);
+      $('#plant-value').text(newState.light);
+
+    })
+
       $('#water').click(function() {
         const newState = stateChanger(tapWater);
         $('#water-value').text(newState.liquid);
@@ -54,10 +63,11 @@ const storeState = () => {
         $('#water2').click(function() {
             const newState = stateChanger(richWater);
             $('#water-value').text(newState.liquid);
+            $('#plant-value').text(newState.liquid);
         })
        $('#health').click(function() {
-        const newState = stateChanger(blueFood + tapWater + richWater);
-        $('#plant-value').text();
+        const newState = stateChanger(plant);
+        $('#plant-value').text(blueFood + tapWater + richWater);
         })
     });
     

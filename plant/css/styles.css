@@ -7,6 +7,7 @@ body {
   text-align: center;
   box-shadow: 5px 5px 5px;
   border-radius: 5px;
+  width: 800;
 }
 
 .btn-success2 {
@@ -21,6 +22,7 @@ body {
 
 hr {
   box-shadow: brown 5px 5px 5px;
+  
 }
 
 
@@ -47,4 +49,16 @@ border: 1px solid cyan;
 border-width: 2px;
 border-color: cyan;
 border-radius: 5px 50px;
+}
+
+.container3 {
+  background-color: burlywood;
+  border-radius: 50%;
+  width: 250;
+  box-shadow: 5px 5px 10px;
+  text-align: center;
+}
+
+h2 {
+  text-shadow: rgb(110, 133, 85) 5px 5px 5px;
 }
