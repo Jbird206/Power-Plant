@@ -39,6 +39,11 @@ img {
   color: brown;
 }
 
+.btn-success1-2 {
+  background-color: rgb(87, 52, 7);
+  color: rgb(192, 139, 139);
+}
+
 .container2 {
 background-color: rgb(118, 223, 174);
 box-shadow: 5px 5px 10px;
